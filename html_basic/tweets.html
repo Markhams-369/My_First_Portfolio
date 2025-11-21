@@ -4,6 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Basic HTML Structure</title>
+    <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header, footer {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  main {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  article {
+    flex: 3;
+  }
+
+  aside {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 1rem;
+    border-left: 1px solid #ddd;
+  }
+
+  footer p {
+    margin: 0;
+  }
+</style>
+
 </head>
   <body>
     <p>This is a Basic HTML Structure example.</p>
